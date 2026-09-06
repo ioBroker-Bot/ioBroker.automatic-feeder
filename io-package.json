@@ -1,20 +1,20 @@
 {
   "common": {
     "name": "automatic-feeder",
-    "version": "1.18.1",
+    "version": "1.18.2",
     "news": {
-      "1.18.1": {
-        "en": "Fix: the pre-feeding announcement via Sayit now reliably speaks the current text — it uses Sayit’s “say” command instead of writing the tts.* states, which could replay a stale/old announcement. Telegram was unaffected.",
-        "de": "Fix: Die Fütterungsansage über Sayit spricht jetzt zuverlässig den aktuellen Text — sie nutzt den „say“-Befehl von Sayit, statt die tts.*-States zu schreiben (die eine alte Ansage erneut abspielen konnten). Telegram war nicht betroffen.",
-        "ru": "Исправление: анонс перед кормлением через Sayit теперь надёжно произносит актуальный текст — используется команда «say» вместо записи состояний tts.* (которые могли повторить старый анонс). Telegram не затронут.",
-        "pt": "Correção: o anúncio antes da alimentação via Sayit agora fala de forma fiável o texto atual — usa o comando “say” do Sayit em vez de escrever os estados tts.* (que podiam repetir um anúncio antigo). O Telegram não era afetado.",
-        "nl": "Fix: de aankondiging vóór het voeren via Sayit spreekt nu betrouwbaar de actuele tekst — via het „say“-commando van Sayit in plaats van de tts.*-states te schrijven (die een oude aankondiging konden herhalen). Telegram was niet getroffen.",
-        "fr": "Correctif : l’annonce avant distribution via Sayit prononce désormais de façon fiable le texte actuel — elle utilise la commande « say » de Sayit au lieu d’écrire les états tts.* (qui pouvaient rejouer une ancienne annonce). Telegram n’était pas concerné.",
-        "it": "Correzione: l’annuncio prima dell’alimentazione via Sayit ora pronuncia in modo affidabile il testo attuale — usa il comando “say” di Sayit invece di scrivere gli stati tts.* (che potevano ripetere un annuncio vecchio). Telegram non era interessato.",
-        "es": "Corrección: el anuncio previo a la alimentación por Sayit ahora dice de forma fiable el texto actual — usa el comando “say” de Sayit en lugar de escribir los estados tts.* (que podían repetir un anuncio antiguo). Telegram no se veía afectado.",
-        "pl": "Poprawka: zapowiedź przed karmieniem przez Sayit teraz niezawodnie wypowiada aktualny tekst — używa polecenia „say“ zamiast zapisu stanów tts.* (które mogły powtórzyć starą zapowiedź). Telegram nie był dotknięty.",
-        "uk": "Виправлення: анонс перед годуванням через Sayit тепер надійно озвучує актуальний текст — використовується команда «say» замість запису станів tts.* (які могли повторити старий анонс). Telegram не зачеплено.",
-        "zh-cn": "修复：通过 Sayit 的投喂前播报现在可可靠地朗读当前文本——使用 Sayit 的“say”命令，而不是写入 tts.* 状态（后者可能重播旧的播报）。Telegram 不受影响。"
+      "1.18.2": {
+        "en": "Maintenance: dependency updates merged via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); the admin UI was rebuilt. No functional changes.",
+        "de": "Wartung: Abhängigkeits-Updates via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); Admin-UI neu gebaut. Keine funktionalen Änderungen.",
+        "ru": "Обслуживание: обновления зависимостей через Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); интерфейс admin пересобран. Без функциональных изменений.",
+        "pt": "Manutenção: atualizações de dependências via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); interface admin recompilada. Sem alterações funcionais.",
+        "nl": "Onderhoud: afhankelijkheidsupdates via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); admin-UI opnieuw gebouwd. Geen functionele wijzigingen.",
+        "fr": "Maintenance : mises à jour des dépendances via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23) ; interface admin reconstruite. Aucun changement fonctionnel.",
+        "it": "Manutenzione: aggiornamenti delle dipendenze via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); interfaccia admin ricompilata. Nessuna modifica funzionale.",
+        "es": "Mantenimiento: actualizaciones de dependencias vía Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); interfaz admin recompilada. Sin cambios funcionales.",
+        "pl": "Konserwacja: aktualizacje zależności przez Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); interfejs admin przebudowany. Bez zmian funkcjonalnych.",
+        "uk": "Обслуговування: оновлення залежностей через Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); інтерфейс admin перезібрано. Без функціональних змін.",
+        "zh-cn": "维护：通过 Dependabot 更新依赖（@iobroker/adapter-react-v5 8.3.3、@tsconfig/node22 22.0.6、dayjs 1.11.23）；已重新构建管理界面。无功能变更。"
       }
     },
     "titleLang": {

@@ -748,6 +748,9 @@ stratification visible (`status.waterStratification`). For most ponds it is opti
 	### **WORK IN PROGRESS**
 -->
 
+### 1.18.2 (2026-09-06)
+* (ssbingo) Maintenance: dependency updates merged via Dependabot — `@iobroker/adapter-react-v5` 8.3.3, `@tsconfig/node22` 22.0.6 and `dayjs` 1.11.23 (MUI stays 6 as `adapter-react-v5` still requires it); the admin UI was rebuilt. No functional changes
+
 ### 1.18.1 (2026-09-03)
 * (ssbingo) **Fix – Sayit announcement.** The pre-feeding announcement via **Sayit** now reliably speaks the **current** text: it uses Sayit's documented **`say` message command** (`sendTo`) instead of writing the `tts.text` / `tts.volume` states, which could re-play a **stale/old** announcement (e.g. a previous test message) and raced the separate volume write. Telegram announcements were never affected
 
@@ -787,9 +790,6 @@ stratification visible (`status.waterStratification`). For most ponds it is opti
 * (ssbingo) **Calibration helper** on the switch tab: run the motor for a few seconds, weigh the dispensed food, and the adapter computes the g/s rate. An optional **daily maximum (g)** guards against overfeeding, and the per-feeding duration is capped
 * (ssbingo) New states **`status.feedTargetSecondsToday`** (s per day) and **`status.feedEffectiveDurationSec`** (s per feeding). The **"when"** (fixed times / interval / astronomical window) and all blocks (night, temperature, O₂, pauses, winter) stay unchanged and keep priority
 * (ssbingo) Documentation updated in all 11 languages and in the German PDF handbook
-
-### 1.13.1 (2026-08-28)
-* (ssbingo) UI: the feeding-amount **fish-stock table is larger and easier to read** — the fish icons now **scale with the size class** (a 15 cm fish is shown smaller than a 60 cm one, on a common baseline), the table is about 50 % wider and the rows are roughly twice as tall. Purely visual, no functional change
 
 ---
 
