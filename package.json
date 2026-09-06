@@ -1,6 +1,6 @@
 {
   "name": "iobroker.automatic-feeder",
-  "version": "1.18.2",
+  "version": "1.18.3",
   "description": "Scheduled automatic feeder for ioBroker: switches an existing state for a set duration, with temperature and day/night limits.",
   "author": {
     "name": "ssbingo",
@@ -24,7 +24,7 @@
     "node": ">= 22"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^3.4.1",
+    "@iobroker/adapter-core": "^3.4.3",
     "suncalc": "^2.0.0"
   },
   "overrides": {

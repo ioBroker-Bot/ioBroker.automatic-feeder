@@ -1,20 +1,20 @@
 {
   "common": {
     "name": "automatic-feeder",
-    "version": "1.18.2",
+    "version": "1.18.3",
     "news": {
-      "1.18.2": {
-        "en": "Maintenance: dependency updates merged via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); the admin UI was rebuilt. No functional changes.",
-        "de": "Wartung: Abhängigkeits-Updates via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); Admin-UI neu gebaut. Keine funktionalen Änderungen.",
-        "ru": "Обслуживание: обновления зависимостей через Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); интерфейс admin пересобран. Без функциональных изменений.",
-        "pt": "Manutenção: atualizações de dependências via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); interface admin recompilada. Sem alterações funcionais.",
-        "nl": "Onderhoud: afhankelijkheidsupdates via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); admin-UI opnieuw gebouwd. Geen functionele wijzigingen.",
-        "fr": "Maintenance : mises à jour des dépendances via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23) ; interface admin reconstruite. Aucun changement fonctionnel.",
-        "it": "Manutenzione: aggiornamenti delle dipendenze via Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); interfaccia admin ricompilata. Nessuna modifica funzionale.",
-        "es": "Mantenimiento: actualizaciones de dependencias vía Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); interfaz admin recompilada. Sin cambios funcionales.",
-        "pl": "Konserwacja: aktualizacje zależności przez Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); interfejs admin przebudowany. Bez zmian funkcjonalnych.",
-        "uk": "Обслуговування: оновлення залежностей через Dependabot (@iobroker/adapter-react-v5 8.3.3, @tsconfig/node22 22.0.6, dayjs 1.11.23); інтерфейс admin перезібрано. Без функціональних змін.",
-        "zh-cn": "维护：通过 Dependabot 更新依赖（@iobroker/adapter-react-v5 8.3.3、@tsconfig/node22 22.0.6、dayjs 1.11.23）；已重新构建管理界面。无功能变更。"
+      "1.18.3": {
+        "en": "Maintenance: updated @iobroker/adapter-core to 3.4.3 (repository checker W0034). No functional changes.",
+        "de": "Wartung: @iobroker/adapter-core auf 3.4.3 aktualisiert (Repository-Checker W0034). Keine funktionalen Änderungen.",
+        "ru": "Обслуживание: @iobroker/adapter-core обновлён до 3.4.3 (repository checker W0034). Без функциональных изменений.",
+        "pt": "Manutenção: @iobroker/adapter-core atualizado para 3.4.3 (repository checker W0034). Sem alterações funcionais.",
+        "nl": "Onderhoud: @iobroker/adapter-core bijgewerkt naar 3.4.3 (repository checker W0034). Geen functionele wijzigingen.",
+        "fr": "Maintenance : @iobroker/adapter-core mis à jour vers 3.4.3 (repository checker W0034). Aucun changement fonctionnel.",
+        "it": "Manutenzione: @iobroker/adapter-core aggiornato a 3.4.3 (repository checker W0034). Nessuna modifica funzionale.",
+        "es": "Mantenimiento: @iobroker/adapter-core actualizado a 3.4.3 (repository checker W0034). Sin cambios funcionales.",
+        "pl": "Konserwacja: zaktualizowano @iobroker/adapter-core do 3.4.3 (repository checker W0034). Bez zmian funkcjonalnych.",
+        "uk": "Обслуговування: @iobroker/adapter-core оновлено до 3.4.3 (repository checker W0034). Без функціональних змін.",
+        "zh-cn": "维护：将 @iobroker/adapter-core 更新到 3.4.3（repository checker W0034）。无功能变更。"
       }
     },
     "titleLang": {

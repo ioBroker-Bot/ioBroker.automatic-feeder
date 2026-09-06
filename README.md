@@ -748,6 +748,9 @@ stratification visible (`status.waterStratification`). For most ponds it is opti
 	### **WORK IN PROGRESS**
 -->
 
+### 1.18.3 (2026-09-06)
+* (ssbingo) Maintenance: updated `@iobroker/adapter-core` to 3.4.3 (repository checker W0034). No functional changes
+
 ### 1.18.2 (2026-09-06)
 * (ssbingo) Maintenance: dependency updates merged via Dependabot — `@iobroker/adapter-react-v5` 8.3.3, `@tsconfig/node22` 22.0.6 and `dayjs` 1.11.23 (MUI stays 6 as `adapter-react-v5` still requires it); the admin UI was rebuilt. No functional changes
 
@@ -784,12 +787,6 @@ stratification visible (`status.waterStratification`). For most ponds it is opti
 
 ### 1.14.1 (2026-08-29)
 * (ssbingo) UI: opening a switch's **Relay** tab now runs the **connection test and reads the board data automatically** (once, when a board address is configured) — the connection status, system overview and S1–S3 button times load without clicking *Test connection*. A plain read no longer marks the configuration as changed
-
-### 1.14.0 (2026-08-29)
-* (ssbingo) **The feeding-amount model can now control feeding (opt-in).** Enable **Control feeding with this amount** on a switch and the recommended daily grams are converted to motor run-time — via a calibrated **dispense rate** (g/s) — and split across the day's feedings. The amount model becomes the "how much" driver, **mutually exclusive with dynamic (Q10)**
-* (ssbingo) **Calibration helper** on the switch tab: run the motor for a few seconds, weigh the dispensed food, and the adapter computes the g/s rate. An optional **daily maximum (g)** guards against overfeeding, and the per-feeding duration is capped
-* (ssbingo) New states **`status.feedTargetSecondsToday`** (s per day) and **`status.feedEffectiveDurationSec`** (s per feeding). The **"when"** (fixed times / interval / astronomical window) and all blocks (night, temperature, O₂, pauses, winter) stay unchanged and keep priority
-* (ssbingo) Documentation updated in all 11 languages and in the German PDF handbook
 
 ---
 

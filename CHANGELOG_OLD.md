@@ -3,6 +3,12 @@
 Changelog entries that were moved out of [README.md](README.md) (it keeps the latest 10) are
 collected here.
 
+### 1.14.0 (2026-08-29)
+* (ssbingo) **The feeding-amount model can now control feeding (opt-in).** Enable **Control feeding with this amount** on a switch and the recommended daily grams are converted to motor run-time — via a calibrated **dispense rate** (g/s) — and split across the day's feedings. The amount model becomes the "how much" driver, **mutually exclusive with dynamic (Q10)**
+* (ssbingo) **Calibration helper** on the switch tab: run the motor for a few seconds, weigh the dispensed food, and the adapter computes the g/s rate. An optional **daily maximum (g)** guards against overfeeding, and the per-feeding duration is capped
+* (ssbingo) New states **`status.feedTargetSecondsToday`** (s per day) and **`status.feedEffectiveDurationSec`** (s per feeding). The **"when"** (fixed times / interval / astronomical window) and all blocks (night, temperature, O₂, pauses, winter) stay unchanged and keep priority
+* (ssbingo) Documentation updated in all 11 languages and in the German PDF handbook
+
 ### 1.13.1 (2026-08-28)
 * (ssbingo) UI: the feeding-amount **fish-stock table is larger and easier to read** — the fish icons now **scale with the size class** (a 15 cm fish is shown smaller than a 60 cm one, on a common baseline), the table is about 50 % wider and the rows are roughly twice as tall. Purely visual, no functional change
 
